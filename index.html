@@ -115,7 +115,24 @@ footer {
         display: inline-block;
     }
 }
-</style>
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.galeria img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #d4af37;
+}
+
+</style> 
 </head>
 
 <body>
@@ -164,7 +181,27 @@ footer {
         </div>
 
     </div>
+
+    
+<section id="galeria">
+    <h2>Galería de cortes</h2>
+    <p>Conoce algunos de nuestros estilos.</p>
+
+    <div class="galeria">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=500" alt="Barbería">
+
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=500" alt="Corte clásico">
+
+        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=500" alt="Corte moderno">
+
+        <img src="https://images.unsplash.com/photo-1592647420148-bfcc177e2117?w=500" alt="Estilo de cabello">
+
+        <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=500" alt="Corte de caballero">
+
+        <img src="https://images.unsplash.com/photo-1590540179852-2110a54f813a?w=500" alt="Barbería profesional">
+    </div>
 </section>
+
 
 <section id="contacto">
     <h2>Reserva tu cita</h2>
