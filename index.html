@@ -131,7 +131,18 @@ footer {
     border-radius: 12px;
     border: 2px solid #d4af37;
 }
-
+.whatsapp-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1000;
+}
 </style> 
 </head>
 
@@ -210,16 +221,20 @@ footer {
 
     <a class="boton"
        href="https://wa.me/50236783279?text=Hola%2C%20quiero%20reservar%20una%20cita%20en%20Barber%C3%ADa%20Elegante.%20%C2%BFQu%C3%A9%20horarios%20tienen%20disponibles%3F"
+       class="whatsapp-fijo" 
        target="_blank"
        rel="noopener noreferrer">
         Reservar por WhatsApp
+
     </a>
 </section>
+<a href="https://wa.me/50236783279" class="whatsapp-flotante" target="_blank" rel="noopener noreferrer">
+    💬 WhatsApp
+</a>
 
 <footer>
     <p>© 2026 Barbería Elegante</p>
-    <p>Todos los derechos reservados.</p>
-</footer>
+    <p>Todos los derechos reservados.</p></footer>
 
 </body>
 </html>
